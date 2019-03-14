@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\На это я трачу свои лучшие годы\EPAM\Zelenkov_Vlad_Task01\Task5\bin\Debug\Task5.exe.config
+C:\Users\User\Desktop\На это я трачу свои лучшие годы\EPAM\Zelenkov_Vlad_Task01\Task5\bin\Debug\Task5.exe
+C:\Users\User\Desktop\На это я трачу свои лучшие годы\EPAM\Zelenkov_Vlad_Task01\Task5\bin\Debug\Task5.pdb
+C:\Users\User\Desktop\На это я трачу свои лучшие годы\EPAM\Zelenkov_Vlad_Task01\Task5\obj\Debug\Task5.exe
+C:\Users\User\Desktop\На это я трачу свои лучшие годы\EPAM\Zelenkov_Vlad_Task01\Task5\obj\Debug\Task5.pdb
