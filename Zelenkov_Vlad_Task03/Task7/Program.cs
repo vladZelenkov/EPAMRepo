@@ -20,8 +20,8 @@ namespace Task7
             foreach (var item in Regex.Matches(text, pattern))
             {
                 string time = item.ToString();
-                string hhStr = Regex.Match(time, @"\d{1,2}:").Value;
-                int hh = int.Parse(hhStr.Remove(hhStr.Length - 1, 1));
+                string hhString = Regex.Match(time, @"\d{1,2}:").Value;
+                int hh = int.Parse(hhString.Remove(hhString.Length - 1, 1));
                 if (hh <= 24)
                 {
                     int mm = int.Parse(Regex.Match(time, @":\d{2}").Value.Remove(0, 1));
