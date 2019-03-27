@@ -16,7 +16,7 @@ namespace Task7
             text = !string.IsNullOrEmpty(text) ? text : "В 7:55 я встал, позавтракал и к 10:77 пошел на работу.";
             Console.WriteLine($"Text:\n {text}");
             string pattern = @"\d{1,2}:\d{2}";
-            int i = 0;
+            int i = 0;            
             foreach (var item in Regex.Matches(text, pattern))
             {
                 string time = item.ToString();
