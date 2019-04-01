@@ -13,10 +13,14 @@ namespace Task1
         {
             get
             {
-                int age = DateTime.Now.Year - Birthday.Year;
-                if (DateTime.Now.Month < Birthday.Month)
+                DateTime now = DateTime.Now;
+                int age = now.Year - Birthday.Year;
+                if (now.Month < Birthday.Month)
                 {
-                    age--;
+                    if (now.Day < Birthday.Day)
+                    {
+                        age--;
+                    }
                 }
                 return age;
             }

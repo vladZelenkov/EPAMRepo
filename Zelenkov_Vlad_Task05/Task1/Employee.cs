@@ -18,11 +18,16 @@ namespace Task1
                 }
             }
         }
-        public string Position { get; private set; }
-
-        public Employee() : base("Vitaly", "Milonov")
+        public string Position
         {
-            AssignmentID();
+            get { return Position; }
+            private set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("position can't be null");
+                }
+            }
         }
 
         public Employee(string parName, string parFam, string parPosition) :

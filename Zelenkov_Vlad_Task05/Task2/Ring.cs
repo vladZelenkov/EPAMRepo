@@ -18,12 +18,6 @@ namespace Task2
             set
             {
                 _innerRadius = value > 0 || value < 1000 ? value : Radius;
-                if (_innerRadius > Radius)
-                {
-                    Radius = Radius + _innerRadius;
-                    _innerRadius = Radius - _innerRadius;
-                    Radius = Radius - _innerRadius;
-                }
             }
         }
         public double RingArea

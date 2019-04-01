@@ -10,7 +10,7 @@ namespace Task1
             List<Employee> workers = new List<Employee>();
             Employee director = new Employee("Nikolay", "Sobolev", "director");
             Employee depHead = new Employee("Danya", "Kraster", "departament head");
-            Employee worker1 = new Employee();
+            Employee worker1 = new Employee("Konstantin", "Paraev", "");
             Employee worker2 = new Employee("Konstantin", "Paraev", "worker");
 
             workers.Add(director);
