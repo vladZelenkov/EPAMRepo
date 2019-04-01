@@ -12,6 +12,7 @@ namespace Task1
             string input = Console.ReadLine();
             var words = new List<string>();
             char[] punctuation = new[] { ',', '.', ':', ';', '!', '?', '-', '(', ')' };
+           
             input = input.Trim();
             StringBuilder temp = new StringBuilder();
             for (int i = 0; i < input.Length; i++)
